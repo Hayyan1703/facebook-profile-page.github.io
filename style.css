@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+
+}
+.body{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background: #242526;
+
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 0.5em 0;
+   
+
+
+}
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+.nav-left .logo{
+    width: 40px;
+    height: 50px;
+    margin: 5px 8px;
+    cursor: pointer;
+}
+.nav-left .logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav-left .search-box{
+    background: #3a3b3c;
+    border-radius: 100px;
+
+    margin-left: 4px;
+    padding: 0 8px;
+    position: relative;
+}
+
+.search-box input{
+    padding: 10px;
+    background: #3a3b3c;
+    border: none;
+    border-radius: 100px;
+}
+
+
+.nav-center ul  {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.nav-center i{
+
+    color:#b8bbbf;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    font: 30px;
+    padding: 50px;
+    
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+   
+}
+
+
+.nav-right i{
+    background: #4e4f50;
+    color: #b8bbbf;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    align-items: center;
+   
+}
+
+
+
+.account{
+    width: 42px;
+    height: 42px;
+    object-fit:cover ;
+    line-height: 45px;
+    margin-right: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.main{
+    background: #1b1919;
+}
+
+.main .fb-content {
+    max-width: 1050px;
+    margin: 0 auto;
+    
+
+}
+
+
+
+.main .fb-content .cover-photo{
+    background:url(cover.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.profile-div{
+    display: flex;
+    align-items: end;
+    margin: -30px;
+    justify-content: start;
+    padding: 0 2em;
+}
+.profile-img{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-left: 10px;
+    
+}
+
+.profile-div.profile-pic{
+    display: flex;
+    
+}
+.profile-name{
+    margin-left: 30%;
+    margin-top: -8%;
+   
+}
+.profile-name h1{
+    color: lightgray;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.profile-name p{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profile-name ul li img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -10px;
+    
+}
+.profile-name ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 12px;
+    
+}
+.pro-btn{
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: lightgray;
+    margin-left: 323px;
+    margin-right: -320px;
+    
+    
+   
+
+}
+.add-to-story{
+    background: #2176FF;
+
+}
+.edit-pro{
+    background: #4E4F50;
+}
+.down{
+    background: #4E4F50;
+}
+.links{
+    padding: 0.3em 0 0;
+    border-top: 0.5px solid #575757;
+    margin-top: 1.5em;
+}
+.links ul{
+    list-style: none;
+    gap: 25px;
+    display: flex;
+    margin-left: 22%;
+
+   
+
+}
+.link-name{
+    padding: 8px 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #8f8f8f;
+} 
+.links-dots{
+    display: flex;
+    margin-top: -2%;
+ 
+}
+
+.links-dots i{
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 5%;
+    background: #4E4F50;
+    margin-bottom: 7%;
+    margin-left: 77%;
+    color: lightgray;
+}
+
+
